@@ -1,0 +1,158 @@
+/*ESTILO EJEMPLO CASAMIENTO fotografico*/
+
+    .header_principal {
+        background-image:url(../media/carrousel1.jpg) ;
+        background-color: #AAA47E;
+        background-position: center;
+        background-size:cover;
+        background-repeat: no-repeat;
+        height:700px;}
+
+    .nuestra_boda {
+        color: white; 
+        font-family: josefin sans;
+        font-size: xx-large;   }
+
+    .nombres_novios {
+        font-family: parisienne;
+        font-size: 45px;
+        font-weight: bolder;
+        color: white;
+        text-align: center;}
+
+    .container_frase {
+        background-color: #AAA47E;
+        color: white;}
+
+    .frase {
+        font-family: cookie;
+        font-size: 35px;
+        margin-top: 30px;}
+
+    .autor {
+        font-family: josefin sans;
+        margin-bottom: 35px;
+        font-size: x-large;}
+
+    .contenedor_ceremonia {
+        margin: 25px;
+        border-radius: 20px;
+        box-shadow: 6px 4px 15px #2e3336 ;
+        background-color:whitesmoke;}
+
+    .titulo_evento {
+        font-size: x-large;
+        font-family: cinzel;
+        font-weight: bold;}
+
+    .text_evento {
+        font-family: advent pro;
+        font-size: x-large;
+        width: 90%;}
+
+    .boton_eventos {
+        border-radius: 50px;
+        border-color: transparent;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-family: josefin sans;}
+
+        .boton_claro {
+           color:#637b89 ;
+           background-color: white;
+
+        }
+        .boton_oscuro {
+            color: white;
+            background-color: #637b89;
+        }
+
+    .spotify_gral {
+        background-image: url(../media/fondo_spotifi.png);
+        background-size: cover;
+        background-position: center;}
+
+    .te_recomendamos {
+        font-size: xx-large;
+        margin-top: 30px;}
+
+
+    .nuestra_playlist {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 50px;
+        font-family: cookie;}
+
+
+    .seccion_regalos {
+        background-color: #AAA47E;
+        color: white;
+        padding-top: 30px;
+        padding-bottom: 30px;}
+
+    .img_regalo {
+        width: 25%;}        
+        
+        .modal_regalos {
+            width: 100%;
+            background-color: #AAA47E;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+
+        .modal_regalos2 {
+            background-color: #EFEDE7;
+            width: 90%;
+            height: 90%;
+            margin: 30px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 30px;
+            border-radius: 35px;}     
+
+    .boton_transparente {
+        border: none;
+        background-color: transparent;}
+
+    .seccion_asistencia {
+        background-color: whitesmoke;
+        padding-top: 30px;
+        padding-bottom: 30px;}
+
+    .redes_hashtag {
+        margin: 10px;}
+
+    .hashtag_text {
+        font-size: 8vw;
+        color: white;
+        font-family: josefin sans;}
+
+    .seccion_frase_final {
+        background-color:#AAA47E;
+        color: whitesmoke;
+        font-family: cookie;
+        font-size: xx-large; 
+        padding: 30px;}
+
+ 
+                           
+        .mail_footer:link {
+                    text-decoration: none;
+                    color: black;}
+            .section_footer:visited {
+                    text-decoration: none;
+                    color: black;}
+            .section_footer a:link {
+                    text-decoration: none;
+                    color: black;}
+                    
+    @media (min-width:1024px) {
+        .header_principal {
+            height: 550px;
+        }
+        .spotify1 {
+            height: 700px;}
+    }

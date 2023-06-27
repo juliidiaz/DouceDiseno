@@ -1,0 +1,179 @@
+/*ESTILO EJEMPLO CASAMIENTO fotografico*/
+
+.header_principal {
+    background-image:url(../media/cumple/portada.png) ;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:650px;}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.countdown-items-contain{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: advent pro;
+    font-size:large;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.countdown-item{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-family: advent pro;
+    font-weight:1000;
+    font-size:x-large;
+}
+
+.recuadro-tiktok{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-info {
+    width: 90%;
+    margin: 0px 0px 50px 0px;
+}
+
+.texto-info-tiktok{
+    position: absolute;
+    color: rgb(8, 8, 8);
+    width: 75%;
+    font-family: advent pro;
+    font-weight:1000;
+    font-size:x-large;
+}
+
+.spotify1 {
+    background-image: url(../media/gradu/fondospotify.png);
+    background-position: center;
+    background-size: cover;
+    height: 350px;}
+
+.fondo2{
+    background-image: url(../media/cumple/fondo2.png);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+}
+
+.text-tiktok{
+    color: rgb(255, 255, 255);
+    width: 75%;
+    font-family: advent pro;
+    font-weight:bold;
+    font-size:17px;
+    margin: 10px;
+    text-align: center;
+
+}
+.contenedor-redes {
+    height: 700px;
+}
+
+.img-icon{
+    height: 60%;
+    transition: 2s;
+    margin-bottom: 40px;
+}
+
+.img-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+    .img-icon:hover {
+        height: 70%;
+    }
+
+.modal_regalos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.modal_regalos2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+    padding: 30px;
+    font-family: raleway;
+    font-size: x-large;
+    text-align: center;
+}
+
+.contenedor-redes{
+    height: 200px;
+}
+
+.redes-tiktok {
+    background-image: url(../media/cumple/fondo-redes.png);
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.icon_footer{
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (min-width:1024px) {
+    .redes-tiktok {
+        height: 550px;
+    }
+    .contenedor-redes {
+        height: 325px;
+    }
+    .fondo2{
+        height: 600px;
+    }
+    .text-tiktok{
+        width: 75%;
+        font-size: 27px;
+        margin: 10px;
+        text-align: center;
+    }
+    .spotify1 {
+        height: 550px;}
+        
+    .img-info {
+        width: 60%;
+       
+    }
+    .texto-info-tiktok{
+        width: 50%;
+        font-size: xx-large;
+    }
+        
+}

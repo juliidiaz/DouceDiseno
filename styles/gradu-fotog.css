@@ -1,0 +1,134 @@
+/*TIPOS DE TEXTO PARA INFORMACIÓN*/
+
+.titulo1 {
+    font-family: ubuntu;
+    font-weight:900;
+    text-align: center;
+    font-size: large;}
+
+    .iconostitulo {
+        width: 9%;}
+
+.texto1 {
+    font-family: Kurale;
+    font-weight: none;
+    text-align: center;
+    font-size: medium;
+    margin: 0px 20px 0px 20px;}
+
+.recuadro1 {
+    box-shadow: 2px 2px 3px grey;
+    background-color: white;
+    margin: 20px 60px 20px 60px;
+    padding: 20px 0px 20px 0px;}
+
+.recuadro2 {
+    background-color: white;
+    border: 5px #FF914D solid;
+    padding: 30px;}
+
+     /*seccion iconos juntos*/
+.sec_iconos_juntos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+/*ESTILOS MODAL*/
+
+.modal1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+/*ESTILOS DE BOTONES*/
+
+.btn1 {
+    border-color: transparent;
+    border-radius: 15px;
+    font-family: josefin sans;
+    font-size: small;
+    padding: 0px 7px 0px 7px;
+    box-shadow: 1px 1px 2px grey;}
+
+.btn2 {
+    border-color: transparent;
+    border-radius: 15px;
+    font-family: josefin sans;
+    font-size: small;
+    padding: 2px 7px 2px 7px;
+    box-shadow: 1px 1px 2px grey;
+    color: white;}
+
+/*ESTILOS HEADER*/
+
+.header_sinfrase {
+    background-image:url(../media/gradu/graduejemplo.png) ;
+    background-color: #AAA47E;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:700px;}
+
+/*ESTILOS FRASES*/
+
+.frase_cookie {
+    font-family: cookie;
+    font-size: 30px;
+    margin: 30px 10px 30px 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;}
+/*
+.autor {
+    font-family: josefin sans;
+    margin-bottom: 35px;
+    font-size: x-large;}*/
+
+/*ESTILOS SPOTIFY*/
+
+.spotify1 {
+    background-image: url(../media/gradu/fondospotify.png);
+    background-position: center;
+    background-size: cover;}
+
+/*ESTILOS HASHTAG*/
+
+.hashtag1 {
+    background-position: center;
+    background-size: cover;}
+
+.texthashtag {
+    font-family: Hachi Maru Pop;
+    font-size: 55px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+    text-align: center;}
+
+/*ESTILOS FOOTER*/
+                       
+    .mail_footer:link {
+                text-decoration: none;
+                color: black;}
+        .section_footer:visited {
+                text-decoration: none;
+                color: black;}
+        .section_footer a:link {
+                text-decoration: none;
+                color: black;}
+
+/*ESTILOS MEDIA*/
+                
+@media (min-width:1024px) {
+    .header_principal {
+        height: 550px;}}
+
+@media (min-width:780px) {
+    .texto1 {
+        font-size: x-large;}
+    .titulo1 {
+        font-size: xx-large;}}
